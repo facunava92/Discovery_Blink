@@ -34,8 +34,6 @@ void main(void) {
 		delay(1000);
 		GPIOD->ODR ^= BIT14;
 		GPIOD->ODR ^= BIT15;
-		delay(1000);
-		GPIOD->ODR ^= BIT15;
 
 	}
 }
